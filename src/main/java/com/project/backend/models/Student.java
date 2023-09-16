@@ -19,6 +19,6 @@ public class Student {
     @Column(length = 50)
     private String lastname;
 
-    @Column(unique = true)
+    @Column(unique = true, nullable = false)
     private String email;
 }
